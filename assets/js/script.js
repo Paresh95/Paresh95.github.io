@@ -157,3 +157,23 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// copy text to clipboard
+function copyTextToClipboard() {
+  const textElement = document.getElementById('copyToClipboard');
+    const textToCopy = textElement.textContent;
+
+  navigator.clipboard.writeText(textToCopy)
+      .then(() => {
+          const statusElem = document.getElementById('copyStatus');
+          statusElem.style.display = 'inline';
+
+          setTimeout(() => {
+              statusElem.style.display = 'none';
+          }, 2000);  // The message will hide after 2 seconds
+
+      })
+      .catch(err => {
+          console.error('Unable to copy text:', err);
+      });
+}
