@@ -567,11 +567,11 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
-/**
+/* *
  * #testimonials 
  */
 
-/* .testimonials { margin-bottom: 30px; }
+.testimonials { margin-bottom: 30px; }
 
 .testimonials-title { margin-bottom: 20px; }
 
@@ -616,12 +616,12 @@ main {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-} */
+}
 
 
 /**
- * #testimonials-modal
- */
+ * #testimonials-modal */
+
 
 .modal-container {
   position: fixed;
