@@ -1114,6 +1114,12 @@ main {
   line-height: 1.6;
 }
 
+.blog-post-item.active {
+  display: block;
+  animation: scaleUp 0.25s ease forwards;
+}
+
+.blog-post-item { display: none; }
 
 /*-----------------------------------*\
   #RESPONSIVE
