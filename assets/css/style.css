@@ -516,20 +516,20 @@ main {
 
 
 /**
- * #service 
+ * # interest 
  */
 
-.service { margin-bottom: 35px; }
+.interest { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.interest-title { margin-bottom: 20px; }
 
-.service-list {
+.interest-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
-.service-item {
+.interest-item {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 20px;
@@ -538,7 +538,7 @@ main {
   z-index: 1;
 }
 
-.service-item::before {
+.interest-item::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -547,27 +547,31 @@ main {
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.interest-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; }
+.interest-icon-box img { margin: auto; }
 
-.service-content-box { text-align: center; }
+.interest-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.interest-item-title { margin-bottom: 7px; }
 
-.service-item-text {
+.interest-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
 
+.interest-icon {
+  font-size: 2.5em;
+  color: var(--orange-yellow-crayola);
+}
 
 /**
  * #testimonials 
  */
 
-.testimonials { margin-bottom: 30px; }
+/* .testimonials { margin-bottom: 30px; }
 
 .testimonials-title { margin-bottom: 20px; }
 
@@ -612,7 +616,7 @@ main {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
+} */
 
 
 /**
@@ -1292,9 +1296,9 @@ main {
 
   .about-text { margin-bottom: 40px; }
 
-  /* service */
+  /* interest */
 
-  .service-item {
+  .interest-item {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1302,12 +1306,12 @@ main {
     padding: 30px;
   }
 
-  .service-icon-box {
+  .interest-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
   }
 
-  .service-content-box { text-align: left; }
+  .interest-content-box { text-align: left; }
 
   /* testimonials */
 
@@ -1626,9 +1630,9 @@ main {
    * ABOUT
    */
 
-  /* service */
+  /* interest */
 
-  .service-list {
+  .interest-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
@@ -1783,6 +1787,7 @@ main {
   .timeline-text { max-width: 700px; }
 
 }
+
 
 
 
