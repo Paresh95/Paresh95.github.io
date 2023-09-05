@@ -779,7 +779,7 @@ main {
 
 
 /**
- * education and experience 
+ * education and employment 
  */
 
 .timeline { margin-bottom: 30px; }
@@ -1797,7 +1797,13 @@ main {
   padding-top: 40px;
   font-size: 14px;
 }
-   
+
+  /**
+   * Images
+   */
+img.rounded-corners {
+  border-radius: 20px;
+}
 
 
 
