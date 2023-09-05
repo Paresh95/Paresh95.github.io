@@ -772,7 +772,7 @@ main {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #EXPERIENCE
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
@@ -1392,7 +1392,7 @@ main {
 
 
   /**
-   * #RESUME
+   * #EXPERIENCE
    */
 
   .timeline-list { margin-left: 65px; }
@@ -1781,7 +1781,7 @@ main {
 
 
   /**
-	 * RESUME
+	 * EXPERIENCE
 	 */
 
   .timeline-text { max-width: 700px; }
@@ -1789,7 +1789,15 @@ main {
 }
 
 
-
+  /**
+   * Footer
+   */
+.footer{
+  color: var( --white-1);
+  padding-top: 40px;
+  font-size: 14px;
+}
+   
 
 
 
