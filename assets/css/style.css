@@ -260,7 +260,9 @@ article.active {
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: var(--orange-yellow-crayola);
   border-radius: 5px;
+  scrollbar-color: var(--orange-yellow-crayola)
 }
+
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
 
