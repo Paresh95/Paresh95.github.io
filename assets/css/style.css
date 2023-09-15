@@ -263,7 +263,7 @@ article.active {
   border-radius: 5px;
 }
 
-.has-scrollbar::-webkit-scrollbar-button { width: 20px; }
+.has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
 .has-scrollbar {
   scrollbar-color: var(--orange-yellow-crayola) var(--onyx); /* thumb and track color */
@@ -1461,7 +1461,6 @@ main {
 
   .sidebar, article { width: 700px; }
 
-  .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
 
 
