@@ -252,19 +252,22 @@ article.active {
   height: 5px; /* for horizontal scrollbar */
 }
 
-/* .has-scrollbar::-webkit-scrollbar-track {
+.has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
-} */
+}
+
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: var(--orange-yellow-crayola);
   border-radius: 5px;
-  scrollbar-color: var(--orange-yellow-crayola)
 }
 
-
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
+
+.has-scrollbar {
+  scrollbar-color: var(--orange-yellow-crayola) var(--onyx); /* thumb and track color */
+}
 
 .content-card {
   position: relative;
