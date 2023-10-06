@@ -513,20 +513,20 @@ main {
 
 
 /**
- * # interest 
+ * # fun-fact 
  */
 
-.interest { margin-bottom: 35px; }
+.fun-fact { margin-bottom: 35px; }
 
-.interest-title { margin-bottom: 20px; }
+.fun-fact-title { margin-bottom: 20px; }
 
-.interest-list {
+.fun-fact-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
-.interest-item {
+.fun-fact-item {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 20px;
@@ -535,7 +535,7 @@ main {
   z-index: 1;
 }
 
-.interest-item::before {
+.fun-fact-item::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -544,22 +544,22 @@ main {
   z-index: -1;
 }
 
-.interest-icon-box { margin-bottom: 10px; }
+.fun-fact-icon-box { margin-bottom: 10px; }
 
-.interest-icon-box img { margin: auto; }
+.fun-fact-icon-box img { margin: auto; }
 
-.interest-content-box { text-align: center; }
+.fun-fact-content-box { text-align: center; }
 
-.interest-item-title { margin-bottom: 7px; }
+.fun-fact-item-title { margin-bottom: 7px; }
 
-.interest-item-text {
+.fun-fact-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
 
-.interest-icon {
+.fun-fact-icon {
   font-size: 2.5em;
   color: var(--orange-yellow-crayola);
 }
@@ -769,15 +769,10 @@ main {
 
 
 /*-----------------------------------*\
-  #EXPERIENCE
+  # JOURNEY
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
-
-
-/**
- * education and employment 
- */
 
 .timeline { margin-bottom: 30px; }
 
@@ -1293,9 +1288,9 @@ main {
 
   .about-text { margin-bottom: 40px; }
 
-  /* interest */
+  /* fun-fact */
 
-  .interest-item {
+  .fun-fact-item {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1303,12 +1298,12 @@ main {
     padding: 30px;
   }
 
-  .interest-icon-box {
+  .fun-fact-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
   }
 
-  .interest-content-box { text-align: left; }
+  .fun-fact-content-box { text-align: left; }
 
   /* testimonials */
 
@@ -1389,7 +1384,7 @@ main {
 
 
   /**
-   * #EXPERIENCE
+  JOURNEY
    */
 
   .timeline-list { margin-left: 65px; }
@@ -1626,9 +1621,9 @@ main {
    * ABOUT
    */
 
-  /* interest */
+  /* fun-fact */
 
-  .interest-list {
+  .fun-fact-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
@@ -1777,7 +1772,7 @@ main {
 
 
   /**
-	 * EXPERIENCE
+	 * JOURNEY
 	 */
 
   .timeline-text { max-width: 700px; }
